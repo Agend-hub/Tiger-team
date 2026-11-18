@@ -50,6 +50,14 @@
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 20px;
   }
+  .cart-total {
+    max-width: 600px;
+    margin: 0 auto 16px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: left;
+    color: #0046ae;
+  }
   .buy-panel {
     display: flex;
     flex-direction: row;

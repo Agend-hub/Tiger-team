@@ -10,7 +10,7 @@ function render(card, p) {
   card.querySelector('h2').textContent = p.title;
   card.querySelector('p').textContent = 'Min ' + p.description + ' KG';
   card.querySelector('.price').textContent = p.price.toLocaleString('ru-RU') + ' MDL/KG';
-  card.querySelector('p').textContent = "MDL:"+p.price+".00";
+  card.querySelector('p').textContent = 'Минимальный заказ: ' + p.description + ' кг';
   const btn = card.querySelector('button');
   if (isPurchased) {
     btn.className = 'buy-btn_red';
@@ -61,6 +61,7 @@ function updateCount() {
   if (cartCount) cartCount.textContent = count;
   
 }
+
 const page = window.location.pathname.split('/').pop() || 'index.html';
 
-updateCount(); 
+updateCount();
