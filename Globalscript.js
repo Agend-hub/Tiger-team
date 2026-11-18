@@ -15,10 +15,10 @@ const Mainvalue = document.querySelector('.main_value');
 const products = [
   { title: "Молдавские помидоры", description: "50", price: 50, image: "../img/Tomato.png", isbuy: true },
   { title: "Картошки", description: "100", price: 10, image: "../img/Potate.png", isbuy: true },
-  { title: "Ананасы", description: "10", price: 100, image: "../img/IconShop.png", isbuy: true },
-  { title: "Яблоки", description: "50", price: 25, image: "../img/IconShop.png", isbuy: true },
-  { title: "Сыр", description: "100", price: 85, image: "../img/IconShop.png", isbuy: true },
-  { title: "Огурцы", description: "10", price: 15, image: "../img/IconShop.png", isbuy: true }
+  { title: "Ананасы", description: "10", price: 100, image: "../img/Ananas.png", isbuy: true },
+  { title: "Яблоки", description: "50", price: 25, image: "../img/Apple.png", isbuy: true },
+  { title: "Сыр", description: "100", price: 85, image: "../img/Cheese.png", isbuy: true },
+  { title: "Огурцы", description: "10", price: 15, image: "../img/Pickle.png", isbuy: true }
 ];
 const catalog = document.getElementById('catalog');
 const cartCount = document.getElementById('cart-count');
