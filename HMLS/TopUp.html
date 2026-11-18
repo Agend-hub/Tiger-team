@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FastOrderMd Пополнение счёта</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="bg-farm" aria-hidden="true"></div>
+    <div class="bg-white">
+        <h2 class="main_logo"><span class="blue">Fast</span><span class="yellow">Order</span><span class="red">Md</span></h2>
+        <button id="main-btn" class="buy-btn" type="button">Главная страница</button>
+        <header><div class="sys_acc"><h5 class="main_value">MDL:0.00</h5></div></header>
+        <h1>Пополнение кошелька</h1>
+        <form id="topup-form" class="topup-form">
+            <p>Выберите сумму пополнения:</p>
+            <label><input type="radio" name="amount" value="100"> 100 MDL</label>
+            <label><input type="radio" name="amount" value="250"> 250 MDL</label>
+            <label><input type="radio" name="amount" value="500"> 500 MDL</label>
+            <label><input type="radio" name="amount" value="1000"> 1000 MDL</label>
+            <button type="submit" class="buy-btn">Пополнить</button>
+            <p id="topup-status" role="status"></p>
+        </form>
+    </div>
+    <script src="../Globalscript.js"></script>
+    <script src="../AccountScript.js"></script>
+    <script src="../Mainscript.js"></script>
+</body>
+</html>
